@@ -1,0 +1,28 @@
+{
+  "name": "source-map-file-export",
+  "version": "0.1.0",
+  "description": "export source files from source map",
+  "main": "source-map-file-export.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node source-map-file-export.js test/index.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufologist/source-map-file-export.git"
+  },
+  "keywords": [
+    "sourcemap"
+  ],
+  "author": "Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ufologist/source-map-file-export/issues"
+  },
+  "homepage": "https://github.com/ufologist/source-map-file-export#readme",
+  "dependencies": {
+    "filendir": "^1.0.0"
+  }
+}
